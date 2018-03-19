@@ -86,7 +86,7 @@
       <dl>
         <dlentry>
           <dt>Working Set (<codeph>ep_bg_fetched and vb_active_resident_items_ratio</codeph>)</dt>
-          <dd>You can use the <codeph>ep_cache_miss_ratio</codeph>  in conjunction with the resident
+          <dd>You can use the <codeph>ep_cache_miss_rate</codeph>  in conjunction with the resident
             items ratio and memory headroom metrics to understand if your bucket has enough capacity
             to store your dataset’s most requested objects in memory. More importantly, you can
             forecast the need for additional nodes to expand memory capacity to the cluster.</dd>
